@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="/auth/join" method="post">
+      <fieldset>회원가입</fieldset>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="이메일을 입력하세요"
+      />
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="비밀번호를 입력하세요"
+      />
+      <input
+        type="nickname"
+        name="nickname"
+        id="nickname"
+        placeholder="닉네임을 입력하세요"
+      />
+      <input type="submit" id="" />
+    </form>
+
+    <form action="/auth/login" method="post">
+      <fieldset>로그인</fieldset>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="이메일을 입력하세요"
+      />
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="비밀번호를 입력하세요"
+      />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
